@@ -11,6 +11,7 @@
 .y2,
 .y3 {
     border: 1px solid gray;
+    height: 60px;
 }
 
 .h3 {
@@ -196,10 +197,11 @@ i {
 .conteiner2 {
     display: grid;
     justify-content: center;
-    height: 2555px;
+    height: 2855px;
     width: 300px;
     float: right;
     margin-right: 140px;
+
 
 
 
@@ -222,7 +224,7 @@ i {
     font-size: 20px;
     text-align: center;
     position: relative;
-    bottom: 130px;
+    top: 160px;
 }
 
 .hero12 {
@@ -232,7 +234,7 @@ i {
     font-size: 20px;
     text-align: center;
     position: relative;
-    bottom: 400px;
+    top: 70px;
 }
 
 .hero13 {
@@ -242,7 +244,7 @@ i {
     font-size: 20px;
     text-align: center;
     position: relative;
-    bottom: 680px;
+    bottom: 25px;
 }
 
 .rbig {
@@ -358,7 +360,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: px;
+
     position: relative;
     bottom: 750px;
     right: 325px;
@@ -380,4 +382,91 @@ li {
     bottom: 200px;
     left: 1150px;
     font-size: 24px;
+}
+
+.nav_lf {
+    font-size: 14px;
+    color: gray;
+}
+
+.nav_rg {
+    font-size: 14px;
+    color: gray;
+}
+
+.div_categories {
+    width: 300px;
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_h3 {
+    width: 300px;
+    height: 310px;
+
+
+}
+
+.nav_categories {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 100px;
+
+
+}
+
+li {
+    list-style: none;
+}
+
+.h3-categories {
+    width: 300px;
+    height: 60px;
+    border: 1px solid gray;
+    font-size: 16px;
+
+}
+
+.h3_header {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+}
+
+.div_media {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 колонки */
+    grid-gap: 10px;
+    height: 340px;
+    width: 300px;
+    position: relative;
+    bottom: 320px;
+    left: 20px;
+}
+
+.div_soc_media {
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+    left: 20px;
+}
+
+.header_soc_media {
+    position: relative;
+    left: 0px;
+    bottom: 350px;
+    border: 1px solid gray;
+    width: 300px;
+    text-align: center;
+    font-size: 16px;
+    height: 60px;
 }
